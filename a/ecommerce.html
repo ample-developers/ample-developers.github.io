@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="icon" type="img/png" href="image\1x\Asset 3.png">
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .top {
+            background-color: #aaaa53;
+            width: 100%;
+            height: 5rem;
+        }
+
+        .lt img {
+            display: inline-block;
+            width: 12rem;
+            height: 4rem;
+            padding: .25%;
+            margin: .75%;
+        }
+
+        .mt input {
+            display: block;
+            position: absolute;
+            top: 3%;
+            width: 30%;
+            height: 5%;
+            left: 30%;
+            border-radius: 10px;
+            border-style: solid;
+            border-color: #ffffff;
+            /* text-align: center; */
+        }
+
+        .rt {
+            display: block;
+            position: absolute;
+            right: 8%;
+            top: 4%;
+            font-size: 135%;
+        }
+
+        .rt a {
+            padding-left: 30px;
+        }
+
+        .headerb {
+            height: 30px;
+            width: 100%;
+            display: flex;
+            background-color: burlywood;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+        }
+
+        .option {
+            margin: 2px;
+            padding: 2px;
+            background-color: burlywood;
+            width: 10%;
+            height: 20px;
+            border-right: 2px solid #ba915c;
+            font-weight: bolder;
+            text-decoration: none;
+
+        }
+
+        .option a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        #item-1 {
+            border-left: 2px solid #ba915c;
+        }
+
+        .slideshow {
+            display: flex;
+            width: 100%;
+            margin: 10px;
+            text-align: center;
+            text-decoration: wavy;
+        }
+
+        .slideshow img {
+            width: 95%;
+            height: 500px;
+
+        }
+
+        .slideshow button {
+            width: 2%;
+            height: 100px;
+            position: relative;
+            top: 200px;
+            border: none;
+            background-color: tan;
+            font-weight: bold;
+        }
+        .slideshow a{
+            width: 100%;
+            /* padding: 20px; */
+        }
+        .slideshow a img{
+            width: 100%;
+        }
+
+        .block {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .block a{
+            width: 30%;
+            /* padding: 20px; */
+        }
+        .block a img{
+            width: 90%;
+        }
+
+        .below {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .below a{
+            width: 15%;
+            /* padding: 20px; */
+        }
+        .below a img{
+            width: 90%;
+            /* height: 130px; */
+        }
+
+        .bottom {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .bottom a{
+            width: 7%;
+            /* padding: 20px; */
+        }
+        .bottom a img{
+            width: 90%;
+            height: 130px;
+        }
+
+        .txt {
+            text-align: center;
+            font-size: 22px;
+            font-family: sans-serif;
+            font-weight: bolder;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            margin-top: 5px;
+        }
+        footer{
+            background-color: rgb(58, 54, 54);
+            color: #ffffff;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 30px;
+            padding: 20px;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-content: center;
+            margin-top: 20px;
+        }
+        footer a{
+            color: #ffff00;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="top">
+            <div class="lt">
+                <a href="#"><img src="image\1x\Asset 2.png" alt="Logo"></a>
+
+            </div>
+            <div class="mt">
+                <input type="text" placeholder="Search for item ">
+            </div>
+            <div class="rt">
+                <a href="#">Login/Register</a>
+                <a href="#">Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="headerb">
+        <div class="option" id="item-1"><a href="#"> Man</a></div>
+        <div class="option" id="item-2"><a href="#"> Woman</a></div>
+        <div class="option" id="item-3"><a href="#"> Boy</a></div>
+        <div class="option" id="item-4"><a href="#"> Girl</a></div>
+        <div class="option" id="item-5"><a href="#"> Blog</a></div>
+        <div class="option" id="item-6"><a href="#"> Contact Us</a></div>
+    </div>
+    <p class="txt">Today's Sale</p>
+    <br>
+    <div class="slideshow">
+        <button id="lbtn">&lt;</button>
+        <a href="#"><img src="image\1x\image3.jfif" alt="nature image"></a>
+        <button id="rbtn">&gt;</button>
+    </div>
+    <p class="txt">Man</p>
+    <br>
+    <div class="block">
+        <a href="#"><img src="image\1x\image4.jfif" alt="image2"></a>
+        <a href="#"><img src="image\1x\image3.jfif" alt="image4"></a>
+        <a href="#"><img src="image\1x\image5.jfif" alt="image5"></a>
+    </div>
+    <p class="txt">Woman</p>
+    <br>
+    <div class="below">
+        <a href="#"><img src="image\1x\image6.jfif" alt="image6"></a>
+        <a href="#"><img src="image\1x\image7.jfif" alt="image7"></a>
+        <a href="#"><img src="image\1x\image8.jfif" alt="image8"></a>
+        <a href="#"><img src="image\1x\image9.jfif" alt="image9"></a>
+        <a href="#"><img src="image\1x\image10.jfif" alt="image10"></a>
+        <a href="#"><img src="image\1x\image1.jpeg.jfif" alt="image1"></a>
+    </div>
+    <p class="txt">Kids</p>
+    <br>
+    <div class="bottom">
+        <a href="#"><img src="image\1x\image11.jfif" alt="image11"></a>
+        <a href="#"><img src="image\1x\image12.jfif" alt="image12"></a>
+        <a href="#"><img src="image\1x\image13.jfif" alt="image13"></a>
+        <a href="#"><img src="image\1x\image14.jfif" alt="image14"></a>
+        <a href="#"><img src="image\1x\image15.jfif" alt="image15"></a>
+        <a href="#"><img src="image\1x\image16.jfif" alt="image16"></a>
+        <a href="#"><img src="image\1x\image17.jfif" alt="image17"></a>
+        <a href="#"><img src="image\1x\image18.jfif" alt="image18"></a>
+        <a href="#"><img src="image\1x\image19.jfif" alt="image19"></a>
+        <a href="#"><img src="image\1x\image20.jfif" alt="image20"></a>
+        <a href="#"><img src="image\1x\image21.jfif" alt="image21"></a>
+        <a href="#"><img src="image\1x\image22.jfif" alt="image22"></a>
+    </div>
+    <footer>
+        &copy;Ample-Developers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For more info <a href="mailto:amritlalap22@gmail.com">Contact </a>
+    </footer>
+</body>
+
+</html>
